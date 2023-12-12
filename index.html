@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Projeto</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Repositorio dos Operadores</h2>
+        </div>
+        <div class="banner">
+            <img src="imag01.jpg" alt="y" style="width: 70%; " style="height: 2000px;">
+        </div>
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <section class="newItem">
+        <input type="text" id="newKKS" placeholder="Adicionar novo item:">
+        <input type="text" id="newUnidade" placeholder="Unidade:">
+        <input type="text" id="newUsina" placeholder="Usina:">
+        <input type="text" id="newEquipment" placeholder="Equipment:">
+        <span onclick="newItem()" class="addBtn">Adicionar</span>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>KKS</th>
+                <th>Unidade</th>
+                <th>Usina</th>
+                <th>Equipment</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
+
